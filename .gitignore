@@ -1,6 +1,5 @@
 # Build outputs
 lib/
-static/
 # NPM
 node_modules/
 package-lock.json

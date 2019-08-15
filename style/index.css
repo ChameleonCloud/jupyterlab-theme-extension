@@ -1,19 +1,11 @@
 /*-----------------------------------------------------------------------------
-| Original work Copyright (c) Jupyter Development Team.
-| Modified work Copyright (c) University of Chicago.
+| Copyright (c) University of Chicago.
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-@import './variables.css';
-@import './urls.css';
+@import url('~@jupyterlab/theme-light-extension/style/index.css');
 
-/* Set the default typography for monospace elements */
-tt,
-code,
-kbd,
-samp,
-pre {
-  font-family: var(--jp-code-font-family);
-  font-size: var(--jp-code-font-size);
-  line-height: var(--jp-code-line-height);
+/* Override theme variables */
+:root {
+  --jp-icon-swift: url('icons/chameleon/chameleon.svg');
 }
