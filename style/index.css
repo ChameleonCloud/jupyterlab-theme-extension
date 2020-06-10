@@ -7,5 +7,5 @@
 
 /* Override theme variables */
 :root {
-  --jp-icon-swift: url('icons/chameleon/chameleon.svg');
+  --jp-icon-swift: url('icons/chameleon/chameleon-min.svg');
 }
